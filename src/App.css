@@ -1,0 +1,72 @@
+* {
+ padding: 0;
+ margin: 0;
+ border: none;
+ list-style: none;
+ text-decoration: none;
+ box-sizing: border-box;
+ font-family: 'Poppins','Montserrat',sans-serif;
+}
+
+html,body{
+ width: 100%;
+ height: 100%;
+}
+body{
+  padding:5%;
+  background-color: aliceblue;
+  color: #212121
+}
+.myname{
+  letter-spacing: 2px;
+}
+.summaryHeader{
+  color: aliceblue;
+  letter-spacing: 2px;
+}
+.summary{
+  font-weight: 200;
+}
+.contacts{
+  /* background-color: powderblue; */
+  width: 100%;
+  height: 20%;
+  margin-top: 10px;
+  padding: 5px;
+  border: 1px solid rgba(111, 111, 111, 0.5);
+  border-radius: 4px;
+}
+.contacts li{
+  /* background-color: aqua; */
+
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+}
+.contacts li a{
+  
+  font-weight: 700;
+  color: #212121;
+}
+.italic{
+  font-style: italic;
+}
+.para{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card{
+  width: 40%;
+  padding: 5px;
+  margin: 10px 0;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 1px 1px 5px rgba(42, 42, 42, 0.5);
+}
+#skills{
+  align-self: flex-start;
+}
+
+
